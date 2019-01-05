@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 import { exampleAction } from '../actions'
+import ExampleImage from '../images/react.png'
 
 class ExampleComponent extends Component {
 
@@ -10,6 +11,9 @@ class ExampleComponent extends Component {
       <div>
         Example Component
         <button onClick={ this.props.exampleAction }>Button</button>
+        <div>
+          <img src={ ExampleImage } alt="example_image"/>
+        </div>
       </div>
     )
   }
