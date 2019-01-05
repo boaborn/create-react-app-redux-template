@@ -7,6 +7,8 @@ const INITIAL_STATE = {
 }
 
 export default (state = INITIAL_STATE, action) => {
+  console.log('<- Example Reducer')
+
   switch (action.type) {
     case EXAMPLE_ACTION:
       return { ...state, [action.payload.prop]: action.payload.value }
