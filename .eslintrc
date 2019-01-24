@@ -38,6 +38,7 @@
     "valid-jsdoc": "off",
     "require-jsdoc": "off",
     "space-before-function-paren": ["error", "always"],
-    "jsx-quotes": ["error", "prefer-double"]
+    "jsx-quotes": ["error", "prefer-double"],
+    "no-invalid-this":"off"
   }
 }
